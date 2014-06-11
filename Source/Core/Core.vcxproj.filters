@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\CUDA">
+      <UniqueIdentifier>{a3904982-d9a6-40e1-b940-361ea5b91ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GL">
+      <UniqueIdentifier>{d3d9f73f-9b07-49dc-b5f4-3ca076ce72fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DX">
+      <UniqueIdentifier>{826f3425-e237-41cf-8baf-d03b726c3139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Render">
+      <UniqueIdentifier>{005a040a-06ea-48b0-b4d9-844a416e59e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Scene">
+      <UniqueIdentifier>{3f56ecdf-6ab6-45ed-914c-e4fd9d62da1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\State">
+      <UniqueIdentifier>{207630de-8a9d-4d1d-a49a-11b6b7e25dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Buffer">
+      <UniqueIdentifier>{3f07b692-de92-401b-aa8a-71d3713a5adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\State">
+      <UniqueIdentifier>{6230e60a-69db-4653-b73e-132e63605b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Scene">
+      <UniqueIdentifier>{e1094165-dbad-4f41-b50c-5c7b1468f70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Render">
+      <UniqueIdentifier>{2041505d-2232-44d6-8e82-cda963ee1c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GL\State">
+      <UniqueIdentifier>{288e6e13-8c0e-433b-9ccf-034ee9b1568d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\Core\Core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Viewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Context.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Configuration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DX\DXContext.h">
+      <Filter>源文件\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\GLContext.h">
+      <Filter>源文件\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\GLDevice.h">
+      <Filter>源文件\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Device.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\CoreDefinition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\GLTypeConverter.h">
+      <Filter>源文件\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Light.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Node.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Camera.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Renderable.h">
+      <Filter>头文件\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\RenderPass.h">
+      <Filter>头文件\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\RenderTarget.h">
+      <Filter>头文件\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Scene.h">
+      <Filter>头文件\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Texture.h">
+      <Filter>头文件\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\State.h">
+      <Filter>头文件\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Shader.h">
+      <Filter>头文件\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\GLShader.h">
+      <Filter>源文件\GL\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\ShaderProgram.h">
+      <Filter>头文件\State</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\GLShaderProgram.h">
+      <Filter>源文件\GL\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Core\Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\GLContext.cpp">
+      <Filter>源文件\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="DX\DXContext.cpp">
+      <Filter>源文件\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\GLDevice.cpp">
+      <Filter>源文件\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\GLConverter.cpp">
+      <Filter>源文件\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderable.cpp">
+      <Filter>源文件\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPass.cpp">
+      <Filter>源文件\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>源文件\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\GLShader.cpp">
+      <Filter>源文件\GL\State</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\GLShaderProgram.cpp">
+      <Filter>源文件\GL\State</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
